@@ -251,11 +251,11 @@ config() {
 	{ banner; sleep 1; cd $temp_folder; }
 
 	echo -e "${R} [${W}-${R}]${C} Downloading Required Files..\n"${W}
-	downloader "fonts.tar.gz" "https://raw.githubusercontent.com/MAXKROPKAXYZ/modded-ubuntu/config/fonts.tar.gz"
-	downloader "icons.tar.gz" "https://raw.githubusercontent.com/MAXKROPKAXYZ/modded-ubuntu/config/icons.tar.gz"
-	downloader "wallpaper.tar.gz" "https://raw.githubusercontent.com/MAXKROPKAXYZ/modded-ubuntu/config/wallpaper.tar.gz"
-	downloader "gtk-themes.tar.gz" "https://raw.githubusercontent.com/MAXKROPKAXYZ/modded-ubuntu/config/gtk-themes.tar.gz"
-	downloader "ubuntu-settings.tar.gz" "https://raw.githubusercontent.com/MAXKROPKAXYZ/modded-ubuntu/config/ubuntu-settings.tar.gz"
+	downloader "fonts.tar.gz" "https://raw.githubusercontent.com/MAXKROPKAXYZ/modded-ubuntu/master/config/fonts.tar.gz"
+	downloader "icons.tar.gz" "https://raw.githubusercontent.com/MAXKROPKAXYZ/modded-ubuntu/master/config/icons.tar.gz"
+	downloader "wallpaper.tar.gz" "https://raw.githubusercontent.com/MAXKROPKAXYZ/modded-ubuntu/master/config/wallpaper.tar.gz"
+	downloader "gtk-themes.tar.gz" "https://raw.githubusercontent.com/MAXKROPKAXYZ/modded-ubuntu/master/config/gtk-themes.tar.gz"
+	downloader "ubuntu-settings.tar.gz" "https://raw.githubusercontent.com/MAXKROPKAXYZ/modded-ubuntu/master/config/ubuntu-settings.tar.gz"
 
 	echo -e "${R} [${W}-${R}]${C} Unpacking Files..\n"${W}
 	tar -xvzf fonts.tar.gz -C "/usr/local/share/fonts/"
