@@ -82,14 +82,14 @@ setup_vnc() {
 	if [[ -d "$CURR_DIR/distro" ]] && [[ -e "$CURR_DIR/distro/vncstart" ]]; then
 		cp -f "$CURR_DIR/distro/vncstart" "$UBUNTU_DIR/usr/local/bin/vncstart"
 	else
-		downloader "$CURR_DIR/vncstart" "https://raw.githubusercontent.com/modded-ubuntu/modded-ubuntu/master/distro/vncstart"
+		downloader "$CURR_DIR/vncstart" "https://raw.githubusercontent.com/MAXKROPKAXYZ/modded-ubuntu/master/distro/vncstart"
 		mv -f "$CURR_DIR/vncstart" "$UBUNTU_DIR/usr/local/bin/vncstart"
 	fi
 
 	if [[ -d "$CURR_DIR/distro" ]] && [[ -e "$CURR_DIR/distro/vncstop" ]]; then
 		cp -f "$CURR_DIR/distro/vncstop" "$UBUNTU_DIR/usr/local/bin/vncstop"
 	else
-		downloader "$CURR_DIR/vncstop" "https://raw.githubusercontent.com/modded-ubuntu/modded-ubuntu/master/distro/vncstop"
+		downloader "$CURR_DIR/vncstop" "https://raw.githubusercontent.com/MAXKROPKAXYZ/modded-ubuntu/master/distro/vncstop"
 		mv -f "$CURR_DIR/vncstop" "$UBUNTU_DIR/usr/local/bin/vncstop"
 	fi
 	chmod +x "$UBUNTU_DIR/usr/local/bin/vncstart"
