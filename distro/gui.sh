@@ -88,7 +88,7 @@ install_vscode() {
 		apt update -y
 		apt install code -y
 		echo "Patching.."
-		curl -fsSL https://raw.githubusercontent.com/modded-ubuntu/modded-ubuntu/master/patches/code.desktop > /usr/share/applications/code.desktop
+		curl -fsSL https://raw.githubusercontent.com/MAXKROPKAXYZ/modded-ubuntu/master/patches/code.desktop > /usr/share/applications/code.desktop
 		echo -e "${C} Visual Studio Code Installed Successfully\n${W}"
 	}
 }
