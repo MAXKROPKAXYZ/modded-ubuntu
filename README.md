@@ -32,8 +32,7 @@
 
   - `yes | pkg up`
   - `pkg install git wget -y`
-  - `git clone --depth=1 https://github.com/modded-ubuntu/modded-ubuntu.git`
-  - `cd modded-ubuntu`
+  - `git clone --depth=1 https://github.com/MAXKROPKAXYZ/modded-ubuntu/setup.sh`
   - `bash setup.sh`
 
 - Then Restart your Termux & Type the following commands
