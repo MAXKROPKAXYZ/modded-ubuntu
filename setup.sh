@@ -103,7 +103,7 @@ permission() {
 	if [[ -d "$CURR_DIR/distro" ]] && [[ -e "$CURR_DIR/distro/user.sh" ]]; then
 		cp -f "$CURR_DIR/distro/user.sh" "$UBUNTU_DIR/root/user.sh"
 	else
-		downloader "$CURR_DIR/user.sh" "https://raw.githubusercontent.com/modded-ubuntu/modded-ubuntu/master/distro/user.sh"
+		downloader "$CURR_DIR/user.sh" "https://raw.githubusercontent.com/MAXKROPKAXYZ/modded-ubuntu/master/distro/user.sh"
 		mv -f "$CURR_DIR/user.sh" "$UBUNTU_DIR/root/user.sh"
 	fi
 	chmod +x $UBUNTU_DIR/root/user.sh
@@ -114,7 +114,7 @@ permission() {
 	chmod +x "$PREFIX/bin/ubuntu"
 	termux-reload-settings
 
-	if [[ -e "$PREFIX/bin/ubuntu" ]]; then
+	if [[ -e "$PREFIX/bin/ubuntu" ]]; then	
 		banner
 		cat <<- EOF
 			${R} [${W}-${R}]${G} Ubuntu-22.04 (CLI) is now Installed on your Termux
