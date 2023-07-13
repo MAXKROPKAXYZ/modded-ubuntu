@@ -32,7 +32,7 @@
 
   - `yes | pkg up`
   - `pkg install git wget -y`
-  - `wget https://github.com/MAXKROPKAXYZ/modded-ubuntu/master/setup.sh`
+  - `wget https://raw.githubusercontent.com/MAXKROPKAXYZ/modded-ubuntu/master/setup.sh`
   - `bash setup.sh`
 
 - Then Restart your Termux & Type the following commands
